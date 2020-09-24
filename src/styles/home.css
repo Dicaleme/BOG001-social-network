@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://i.postimg.cc/j584FvRh/1.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}*/
+
+Nav Style Start 
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height:20%;
+    z-index: 100;
+}
+
+.toggler {
+    display: none;
+}
+
+.home-title {
+    display: flex;
+    margin-left: 20px;
+    font-family: 'Forum', cursive;
+    color: white;
+    font-size: 45px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+
+.home-motto{
+    display: flex;
+    font-family: 'Forum', cursive;
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+.home-motto2{
+    display: flex;
+    font-family: 'Forum', cursive;
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+
+nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    background: rgba(0,0,0,0);
+    left: -110%;
+    transition: all .5s;
+    list-style: none;
+    background-color:rgba(49, 49, 49, 0.829)
+}
+
+nav li {
+    margin-bottom: 30px;
+    margin-left: 16px;
+}
+
+.nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-family: 'Forum', cursive;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgb(91, 180, 253);
+    transition: ease-in .1s;
+}
+
+.toggler:checked ~ nav ul {
+    left: 0;
+}
+
+.burger {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(31, 31, 31);
+    top: 0;
+    right: 0;
+    margin-right: 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.toggler:checked ~ nav a {
+    opacity: 1;
+}
+
+button{
+    background: none;
+    color: #ccc;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+button:focus{
+    outline: none
+}
+
+button:hover {
+    background:dodgerblue;
+    cursor: pointer;
+}
+
+.home-bg-container {
+    /*background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/homeschooling2.jpg);*/
+    background-image: url(../images/homeschooling2.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/*.home-login-button {
+    cursor: pointer;
+    font-family: 'Forum', cursive;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.home-signup-button {
+    cursor: pointer;
+    font-family: 'Forum', cursive;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}*/

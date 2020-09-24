@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.section-404{
+    background-color: #efefef;
+}
+
+.container-404{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 650px;
+    display: flex;
+    flex-flow: column;
+    align-items: center; 
+}
+
+.h1-not-found{
+    font-size:80px;
+}
+.h3-not-found{
+    font-size:50px;
+}
+.go-home{			 
+	color: #fff;
+    padding: 10px 20px;
+    background: #002b5c;
+    margin: 20px 0;
+    display: inline-block;
+    outline: none
+}
+
+.go-home:hover {
+    background:dodgerblue;
+    cursor: pointer;
+}

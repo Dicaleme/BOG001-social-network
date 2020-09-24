@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <script type="module" src="main.js"></script>
-</body>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>CoFamily -The Colombian HomeSchooling Network</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--icons link-->
+      <script src="https://kit.fontawesome.com/b4949f6d7b.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/home.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/login.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/singup.css">      
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/notfound.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/community.css">
+      
+  </head>
+  <body>
+    
+    <section id="views"></section>
+    
+    <!--from lines 22 and 40 is a template copied from firebase -->
+    <!-- The core Firebase JS SDK /sofware development kit/ is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-firestore.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCs6WKqWCJFI7Fc0PTeyGsrgJ-DSzFqkiU",
+        authDomain: "cofamily-a6d53.firebaseapp.com",
+        databaseURL: "https://cofamily-a6d53.firebaseio.com",
+        projectId: "cofamily-a6d53",
+        storageBucket: "cofamily-a6d53.appspot.com",
+        messagingSenderId: "35840861708",
+        appId: "1:35840861708:web:d76a24e05a308daf613029",
+        measurementId: "G-W2S05G8RCS"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>   
+
+    <script type="module" src="main.js"></script>
+
+  </body>
 </html>

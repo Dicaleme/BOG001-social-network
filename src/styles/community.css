@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height:20%;
+    z-index: 100;
+}
+
+.toggler {
+    display: none;
+}
+
+.logo-community {
+    display: flex;
+    height: 150px;
+    width: 260px;
+    margin-left: 16px;
+}
+
+nav ul {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0);
+    left: -110%;
+    transition: all .5s;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 30px;
+    margin-left: 16px;
+}
+
+nav a {
+    /*outline:1px solid red;*/
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 120px;
+    font-family: 'Forum', cursive;
+}
+
+nav a:hover {
+    color: rgb(91, 180, 253);
+    transition: ease-in .1s;
+}
+
+.toggler:checked ~ nav ul {
+    left: 0;
+}
+
+.burger {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(31, 31, 31);
+    top: 0;
+    right: 0;
+    margin-right: 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.toggler:checked ~ nav a {
+    opacity: 1;
+}
+
+.community-bg-container {
+    /*background-image: url(../images/kid.gif);*/
+    background-color: #002b5c;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+.public-post-container{
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.post-container{
+    /*outline:1px solid red;*/
+	background-color:#E6E3F4;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 500px;
+	position: absolute;
+	margin-left: -38%;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+.post-title{
+    color:#3c3c3c;
+	font-size: 18px;	
+    background-color: #f1f2f6;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+    width:100%;
+    outline: none;
+    border-radius: 7px;
+	box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+    font-family: 'Forum', cursive;
+}
+
+.post-description{
+    color:#3c3c3c;
+	font-size: 18px;	
+    background-color: #f1f2f6;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+    width:100%;
+    outline: none;
+	border-radius: 7px;
+	box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+    font-family: 'Forum', cursive;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    line-height: 100%;
+    resize:vertical;
+    border-radius: 5px;
+}
+
+.button-post-form{
+    width: 40%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: #ffde59;
+    border-radius: 30px;
+    color: #002b5c;
+    text-align: center;
+    float: left;
+	left: 30%;
+	position: absolute;
+    padding: 1px;
+    outline: none;
+}
+.button-post-form:hover{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.posts-container{
+    /*outline:1px solid red;*/
+    overflow: auto;
+    width: 630px;
+    height: 550px;
+    margin-left: 60%;
+    margin-top: 5%;
+    font-family: 'Forum', cursive;
+}
+.new-post-container{
+    /*outline:1px solid red;*/
+    background-color: #f1f2f6;
+    overflow: auto;
+    word-wrap: break-word;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:35px;
+    padding-bottom:50px;
+    width: 430px;
+    margin-top: 15px;
+    font-family: 'Forum', cursive;
+}
+.button-delete,
+.button-edit{
+    width: 18%;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    background: #ffde59;
+    border-radius: 30px;
+    color: #002b5c;
+    text-align: center;
+    outline: none;
+    
+}
+.button-likes{
+    width: 8%;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    color:#e74c3c;
+    text-align: center;
+    outline: none;
+}
+
+.button-likes:hover{
+    color: #002b5c ;
+}
+
+/* Desktop Screen Format*/ 
+
+@media screen and (min-width: 800px) {
+.burger {
+    display: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(700px, 3fr);
+}
+
+nav {
+    
+    display: flex;
+    grid-column: 3/4;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    all: unset;
+    list-style: none;
+    display: flex;
+    
+}
+
+nav li {
+    margin-bottom: 0;
+    margin-right: 16px;
+    
+}
+
+nav a {
+    opacity: 1;
+}
+
+}
+

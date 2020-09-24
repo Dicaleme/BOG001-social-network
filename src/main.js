@@ -1,5 +1,18 @@
-// Este es el punto de entrada de tu aplicacion
 
-import { myFunction } from './lib/index.js';
+//import { initFirebase } from './firebase/firebase-init.js';
+import { router } from './router/index.routes.js';
 
-myFunction();
+
+router(window.location.hash)
+
+window.addEventListener('hashchange', () => {
+    router(window.location.hash)
+});
+
+
+
+
+
+
+
+

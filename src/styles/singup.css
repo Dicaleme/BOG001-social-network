@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container2{
+    background-color: #E6E3F4;
+    height: 800px;
+}
+
+.logo-container2{
+    /*outline:1px solid red;*/
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cofamily-logo-white{
+    widows: 250px; ;
+    height: 210px;
+}
+
+.sign-up-form{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-icon-container {
+    position: relative;
+}
+
+.user-icon-container i{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    padding: 9px 8px;
+    color: #353b48;
+}
+/*se mantiene iluminado el input al click*/
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.signup-email-input, 
+.signup-password-input{
+    width: 260px;
+    height: 30px;
+    border: none;
+    font-size: 16px;    
+    border-radius: 30px;
+    background-color: white;
+    padding:5px;
+    margin: 5px;
+    outline: none;
+    padding-left: 40px;
+}
+
+.signup-email-input:hover,
+.signup-password-input:hover{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.signup-user-input, 
+.signup-confirm-password-input{
+    width: 260px;
+    height: 30px;
+    border: none;
+    font-size: 16px;    
+    border-radius: 30px;
+    background-color: white;
+    padding:5px;
+    margin: 5px;
+    outline: none;
+    padding-left: 40px;
+}
+
+.signup-user-input:hover,
+.signup-confirm-password-input:hover{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.signUp-button{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: #ffde59;
+    border-radius: 30px;
+    color: #002b5c;
+    text-align: center;
+    padding: 1px;
+    outline: none;
+    box-shadow: 0 7px 8px 0 rgba(0,0,0,.25);   
+}
+
+.signUp-button:hover{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.a-login,
+.p-login{
+    color: #002b5c;
+    /*text-decoration: none;*/
+}
+
+
+
