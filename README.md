@@ -180,6 +180,14 @@ Debes definir cuál será el flujo que seguirá el usuario dentro de tu aplicaci
 y, con eso, diseña la Interfaz de Usuario (UI por sus siglas en inglés) que
 siga este flujo.
 
+![White Logo](https://user-images.githubusercontent.com/65943524/100379113-5f205180-2fe2-11eb-85fd-97f13e00f27e.PNG)
+![homeschooling2](https://user-images.githubusercontent.com/65943524/100379237-8d9e2c80-2fe2-11eb-9a40-36bbe0e9222c.jpg)
+![Document](https://user-images.githubusercontent.com/65943524/100379278-9c84df00-2fe2-11eb-8d45-fba4382d5e04.jpg)
+![Figma](https://user-images.githubusercontent.com/65943524/100379296-a3abed00-2fe2-11eb-8de4-3b2f892b1fb1.PNG)
+![SKETCH Desktop](https://user-images.githubusercontent.com/65943524/100379325-b2929f80-2fe2-11eb-8e1a-980e1198208e.jpg)
+![SKETCH Mobile](https://user-images.githubusercontent.com/65943524/100379330-b32b3600-2fe2-11eb-94d5-85400984a4f7.jpg)
+
+
 ### 5.5 Responsive
 
 Debe verse bien en dispositivos de pantallas grandes
