@@ -1,6 +1,6 @@
 # Red Social COFAMILY - The Colombian Homeschooling Network
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!![White Logo](https://user-images.githubusercontent.com/65943524/100379113-5f205180-2fe2-11eb-85fd-97f13e00f27e.PNG)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![White Logo](https://user-images.githubusercontent.com/65943524/100379113-5f205180-2fe2-11eb-85fd-97f13e00f27e.PNG)
 ![homeschooling2](https://user-images.githubusercontent.com/65943524/100379237-8d9e2c80-2fe2-11eb-9a40-36bbe0e9222c.jpg)
 
 ## Índice
