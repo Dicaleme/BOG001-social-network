@@ -29,14 +29,11 @@ más comentado.
 
 ## 2. Resumen del proyecto
 
-En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
-Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
-salud, energías renovables, amantes de las [Empanadas](https://es.wikipedia.org/wiki/Empanada)
-o de los [Tacos de Canasta](https://es.wikipedia.org/wiki/Taco), de la
-[Feijoada](https://es.wikipedia.org/wiki/Feijoada), o de lo que sea.
-
 Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
 acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
+
+This is a Colombian Social Network called COFAMILY that gathers families that have homeshooling as education method to educate their kids from home. The purpose of this Social Network is to connect families to organize play dates, share resources and be in a community where they can do projects together, share useful tips and schedule outdoor activities with other homeschooling families.
+
 
 ## 3. Objetivos de aprendizaje
 
