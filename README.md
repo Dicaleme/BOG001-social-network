@@ -1,4 +1,7 @@
-# Creando una Red Social COFAMILY - The Colombian Homeschooling Network
+# Red Social COFAMILY - The Colombian Homeschooling Network
+
+![White Logo](https://user-images.githubusercontent.com/65943524/100379113-5f205180-2fe2-11eb-85fd-97f13e00f27e.PNG)
+![homeschooling2](https://user-images.githubusercontent.com/65943524/100379237-8d9e2c80-2fe2-11eb-9a40-36bbe0e9222c.jpg)
 
 ## Índice
 
@@ -150,6 +153,7 @@ que detalles:
 * Quiénes son los principales usuarios de producto.
 * Qué problema resuelve el producto / para qué le servirá a estos usuarios.
 
+
 ### 5.3 Historias de usuario
 
 Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de
@@ -173,6 +177,8 @@ una de tus Historias de Usuario debe tener:
   - Hicieron _pruebas_ de usabilidad e incorporaron el _feedback_ de los
     usuarios como mejoras.
   - Desplegaron su aplicación y etiquetaron la versión (git tag).
+  
+![TrelloCOFAMILY](https://user-images.githubusercontent.com/65943524/100379836-98a58c80-2fe3-11eb-8f07-7d71cc102dc3.JPG)
 
 ### 5.4 Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
 
@@ -180,8 +186,6 @@ Debes definir cuál será el flujo que seguirá el usuario dentro de tu aplicaci
 y, con eso, diseña la Interfaz de Usuario (UI por sus siglas en inglés) que
 siga este flujo.
 
-![White Logo](https://user-images.githubusercontent.com/65943524/100379113-5f205180-2fe2-11eb-85fd-97f13e00f27e.PNG)
-![homeschooling2](https://user-images.githubusercontent.com/65943524/100379237-8d9e2c80-2fe2-11eb-9a40-36bbe0e9222c.jpg)
 ![Figma](https://user-images.githubusercontent.com/65943524/100379296-a3abed00-2fe2-11eb-8de4-3b2f892b1fb1.PNG)
 ![SKETCH Desktop](https://user-images.githubusercontent.com/65943524/100379325-b2929f80-2fe2-11eb-8e1a-980e1198208e.jpg)
 ![SKETCH Mobile](https://user-images.githubusercontent.com/65943524/100379330-b32b3600-2fe2-11eb-94d5-85400984a4f7.jpg)
