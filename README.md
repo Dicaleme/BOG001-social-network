@@ -150,6 +150,8 @@ que detalles:
 * Quiénes son los principales usuarios de producto.
 * Qué problema resuelve el producto / para qué le servirá a estos usuarios.
 
+![cofamily1](https://user-images.githubusercontent.com/65943524/100380636-351c5e80-2fe5-11eb-8f10-afec7ee748b5.PNG)
+
 
 ### 5.3 Historias de usuario
 
@@ -184,9 +186,6 @@ y, con eso, diseña la Interfaz de Usuario (UI por sus siglas en inglés) que
 siga este flujo.
 
 ![Figma](https://user-images.githubusercontent.com/65943524/100379296-a3abed00-2fe2-11eb-8de4-3b2f892b1fb1.PNG)
-![SKETCH Desktop](https://user-images.githubusercontent.com/65943524/100379325-b2929f80-2fe2-11eb-8e1a-980e1198208e.jpg)
-![SKETCH Mobile](https://user-images.githubusercontent.com/65943524/100379330-b32b3600-2fe2-11eb-94d5-85400984a4f7.jpg)
-
 
 ### 5.5 Responsive
 
@@ -194,6 +193,9 @@ Debe verse bien en dispositivos de pantallas grandes
 (computadoras/es, laptops, etc.) y pequeñas (_tablets_, celulares, etc.). Te
 sugerimos seguir la técnica de _`mobile first`_ (más detalles sobre esta técnica
 al final).
+
+![SKETCH Desktop](https://user-images.githubusercontent.com/65943524/100379325-b2929f80-2fe2-11eb-8e1a-980e1198208e.jpg)
+![SKETCH Mobile](https://user-images.githubusercontent.com/65943524/100379330-b32b3600-2fe2-11eb-94d5-85400984a4f7.jpg)
 
 ### 5.6 Consideraciones del comportamiento de la interfaz de usuario (UI)
 
