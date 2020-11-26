@@ -1,4 +1,4 @@
-# Creando una Red Social
+# Creando una Red Social COFAMILY - The Colombian Homeschooling Network
 
 ## Índice
 
